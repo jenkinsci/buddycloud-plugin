@@ -1,6 +1,6 @@
 # buddycloud for Jenkins
 
-This buddycloud (http://www.buddycloud.org) plugin for Jenkins CI (http://jenkinsci.org) enables notifcation to be sent to a buddycloud channel on the success or failure of a build.
+This buddycloud (http://www.buddycloud.org) plugin for Jenkins CI (http://jenkinsci.org) enables notifcation to be sent to a buddycloud channel on the success and failure of a build or to notify of an unstable build.
 
 The success and fail messages can be customised for each project.
 
@@ -41,6 +41,8 @@ Inspiration from https://github.com/mattriley/yammer-plugin-for-jenkins
 
 ## Version 
 
+* __0.3.0__
+    * Added support for unstable build notifications
 * __0.2.3__
     * Bundled nokogiri
     * Bugs fixed from deployment to a third party server
@@ -55,3 +57,7 @@ Inspiration from https://github.com/mattriley/yammer-plugin-for-jenkins
     * %s/Buddycloud/buddycloud/g https://github.com/lloydwatkin/buddycloud-for-jenkins/issues/1
 * __0.1.0__
     * Initial working version
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lloydwatkin/buddycloud-for-jenkins/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
